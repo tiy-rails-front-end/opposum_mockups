@@ -1,0 +1,71 @@
+* {
+  /*border: 1px dashed black;*/
+  /*padding: 10px;
+  margin: 10px;*/
+}
+
+body {
+  min-width: 750px;
+}
+
+.input-field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-form {
+  text-align: center;
+}
+
+.tab-container {
+  height: 50%;
+  width: 85%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tab {
+  position: absolute;
+  height: 50px;
+  width: 50%;
+  top: -40px;
+}
+
+.login-tab {
+  left: 0;
+  background: lightblue;
+}
+
+.signup-tab {
+  left: 50%;
+  background: lightgreen;
+}
+
+.login-container {
+  background: lightblue;
+  position: relative;
+}
+
+.signup-container {
+  background: lightgreen;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%;
+  z-index: -1;
+}
+
+.main-content-container {
+  padding: 60px;
+}
+
+.input-field {
+  margin-bottom: 25px;
+}
+
+.landing-form {
+  padding: 50px;
+}
